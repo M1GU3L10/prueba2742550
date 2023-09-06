@@ -3,8 +3,11 @@
     font-family: candara;
     box-sizing: border-box;
 }
+body{
+    background-color: #D691FB;
+}
 nav {
-    background-color: #BDFBF7;
+    background-color: #5C227A;
     display:flex;
     justify-content:space-around;
     top: 0;
@@ -23,7 +26,7 @@ ul{
 
 }
 nav li a{
-    background-color: #BDFBF7;
+    background-color: #5C227A;
     color: black;
     text-decoration: none;
     padding: 15px 15px 15px 15px;
@@ -49,8 +52,8 @@ nav li:hover > ul{
 }
 
 nav ul a:hover{
-    background-color: #c3dffa;
-    color: #ac01fb;
+    background-color: #BB46FA;
+    color: white    ;
 
 }
 #menuh{
@@ -125,15 +128,17 @@ main h1 span{
     color: #2587be;
     font-size: 70px;
 }
-.perfil {
+.perfil{
     display: inline;
     align-items: center;
     text-decoration: none;
     padding: 15px 25px 15px 25px;
-    background-color: #9bece7;
+    background-color: #5C227A;
     color: black;
-    
-    
+}
+.perfil:hover{
+    background-color: #BB46FA;
+    color: white;
 }
 main{
     display: block;
