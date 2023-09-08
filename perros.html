@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/perros.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300&family=Merienda:wght@800&family=Oswald&family=Quicksand:wght@700&display=swap');
     </style>
     <script src="https://kit.fontawesome.com/9de99b2455.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="assets/imagenes/R.png">
+    <link rel="icon" href="R.png">
     <title>PETS</title>
 </head>
 <body>
     <nav>
         <div>
-            <img src="assets/imagenes/R.png" alt="Menu" id="menuh">
-            <span class="logo">PETS</span>
+            <img src="assets/imagenes/logomejor.png" alt="Menu" id="menuh">
     
             
         </div>
@@ -24,33 +23,58 @@
         <ul>
             <li><a href="index2.html">Inicio</a></li>
             <li><a href="#">Donar</a></li>
-            <li><a href="registro.html">Adoptar</a>
-                <ul>
-                    <li><a href="gatos.html">Gatos</a></li>
-                </ul>
+            <li><a href="#">Adoptar</a>
             </li>
             <li><a href="#Pie-pagina">Contactanos</a></li>
         </ul>
         <div >
-            <a href="registro.html"class="perfil">Registro</a>
-            <a href="login.html"class="perfil">Login</a>
+            <a href="#"class="perfil">Registro</a>
         </div>
         
     </nav>
-    <div class="imagencorp">
-        <img src="https://as01.epimg.net/diarioas/imagenes/2022/01/09/actualidad/1641723199_369382_1641723267_noticia_normal.jpg" alt="Imagen mascotas"
-        style="border-radius: 50%;">
+     <!--CARRUSEL-->
+
+     <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slide-item">
+                <img src="assets/imagenes/Diseño sin título.png">
+                <p>¡Todos nuestros peludos están a la espera de una familia!</p>
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="assets/imagenes/carrusel2.png">
+                <p class="carrusel22">¡Son entregados en óptimas condiciones de salud y belleza!</p>
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="assets/imagenes/carrusel3.png">
+                <p class="carrusel3">En esta página conocerás nuestro proceso de adopción y requisitos!</p>
+                <a href="#" class="button">Saber mas</a>
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
     </div>
-    <main >
-        <h1>En PETS tenemos a muchos buscando un hogar ❤️ </h1><br>
-
-        <p>Nos alegra saber que estas pensando en adoptar, todos nuestros peludos están a la espera de una familia y son entregados en óptimas condiciones de salud y belleza a adoptantes responsables y amorosos. En esta página conocerás nuestro proceso de adopción y requisitos, pero lo primero es conocer al peludo que deseas adoptar, si ya tienes su nombre sigue leyendo nuestras condiciones, de lo contrario puedes conocer todos nuestro peluditos.
-        </p><br>
-        <p>Cada dia se ven miles de animales abandonados en la calle que no tienen quién se responsabilice por ellos. Maneras de ayudar hay muchas, entre ellas: Puedes ser voluntario, ser hogar temporar o apadrinar uno de estos animalitos en algún albergue.</p>
-    </main><br><br><hr><br>
-
+    <!--FIN CARRUSEL-->
     <!--CARDS-->
-    <h1 class="centrar">ADOPCION...</h1>
+    <h1 class="centrar">ADOPTAR</h1>
     <div class="container">
         <div class="card">
             <figure>
@@ -142,9 +166,8 @@
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="assets/imagenes/R.png" alt="❤️ Pets">
+                        <img src="assets/imagenes/piepagina.png" alt="❤️ Pets">
                     </a>
-                    <span class="logo">PETS</span>
                 </figure>
             </div>
             <div class="box">

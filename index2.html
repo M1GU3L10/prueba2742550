@@ -1,81 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/9de99b2455.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300&family=Merienda:wght@800&family=Oswald&family=Quicksand:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
     </style>
-    
-    <link rel="icon" href="assets/imagenes/R.png">
-    <title>PETS</title>
+    <script src="https://kit.fontawesome.com/9de99b2455.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/imagenes/logomejor.png">
+    <title>Patitas peludas</title>
 </head>
-<body class="body">
+
+<body>
     <nav>
         <div>
-            <img src="assets/imagenes/R.png" alt="Menu" id="menuh">
-            <span class="logo">PETS</span>
-    
-            
+            <img src="assets/imagenes/logomejor.png" alt="Menu" id="menuh">
+
+
+
         </div>
         <span></span>
         <ul>
             <li><a href="index2.html">Inicio</a></li>
-            <li><a href="registro.html">Donar</a></li>
-            <li><a href="">Adoptar</a>
-                <ul>
-                    <li><a href="gatos.html">Gatos</a></li>
-                    <li><a href="perros.html">Perros</a></li>
-                </ul>
+            <li><a href="#adoptar">Adoptar</a>
+            <li><a href="#">Donar</a></li>
             </li>
-            <li><a href="#Nosotros">Nosotros</a>
+            <li><a href="#contenedornosotros">Nosotros</a>
             <li><a href="#Pie-pagina">Contactanos</a></li>
         </ul>
-        <div >
-            <a href="login.html"class="perfil" target="_blank">Iniciar</a>
-            <a href="registro.html"class="perfil" target="_blank">Registro</a>
-            
-        </div>
-        
-        
-    </nav>
-    <div>
-        <img class="imagencorp" src="https://as01.epimg.net/diarioas/imagenes/2022/01/09/actualidad/1641723199_369382_1641723267_noticia_normal.jpg" alt="Imagen mascotas"
-        style="border-radius: 50%;">
-    </div>
-    <main>
-        <h1>En PETS tenemos a muchos buscando un hogar ❤️ </h1><br>
+        <div>
+            <a href="login.html" class="perfil">Iniciar</a>
+            <a href="registro.html" class="perfil">Registro</a>
 
-        <p>Nos alegra saber que estas pensando en adoptar, todos nuestros peludos están a la espera de una familia y son entregados en óptimas condiciones de salud y belleza a adoptantes responsables y amorosos. En esta página conocerás nuestro proceso de adopción y requisitos, pero lo primero es conocer al peludo que deseas adoptar, si ya tienes su nombre sigue leyendo nuestras condiciones, de lo contrario puedes conocer todos nuestro peluditos.
-        </p><br>
-        <p>Cada dia se ven miles de animales abandonados en la calle que no tienen quién se responsabilice por ellos. Maneras de ayudar hay muchas, entre ellas: Puedes ser voluntario, ser hogar temporar o apadrinar uno de estos animalitos en algún albergue.</p>
-    </main><br><br><hr><br>
+        </div>
+
+
+    </nav>
+    <!--CARRUSEL-->
+
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slide-item">
+                <img src="assets/imagenes/Diseño sin título.png">
+                <p>¡Todos nuestros peludos están a la espera de una familia!</p>
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="assets/imagenes/carrusel2.png">
+                <p class="carrusel22">¡Son entregados en óptimas condiciones de salud y belleza!</p>
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="assets/imagenes/carrusel3.png">
+                <p class="carrusel3">En esta página conocerás nuestro proceso de adopción y requisitos!</p>
+                <a href="#" class="button">Saber mas</a>
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!--FIN CARRUSEL-->
+
+    <!--Seccion adoptar-->
+    <div class="adoptar" id="adoptar">
+        <h1>ADOPTAR</h1>
+        <p>Puedes ayudar a muchos peluditos que buscan un hogar</p>
+        <div class="columnas">
+            <div class="columna1">
+                <a href="perros.html"><img src="assets/imagenes/Adoptar-perros.jpg" alt=""></a>
+                <div class="boton">
+                    <a href="#">PERROS</a>
+                </div>
+                
+            </div>
+
 
     <div class="nosotros" id="Nosotros">
         <h1>NOSOTROS </h1><br>
-        <div class="mision">
-            <h2>Misión</h2><br>
-            <p>Pets, esta principalmente comprometida con promover mediante diferentes actividades la adopción responsable, la conciencia de esterilizar y recuperar animales en condición de maltrato y abandono con el fin de enseñar, contribuir y entregar una calidad de vida a todos los perros y gatos que lo necesiten.</p><br><br>
-            <img src="assets/imagenes/Cacho-e-gato-juntos-no-chao-posando-pra-foto_3.webp" alt=""><br><br>
-        </div>
-        <div class="vision">
-            <h2>Visión</h2><br>
-            <p>Queremos ser reconocidos a nivel mundial por el impacto generado no solo a todos aquellos animales que fueron rescatados, sino a toda la sociedad por generar conocimiento y consciencia acerca de la importancia de esterilizar, y de la responsabilidad de tener un perro y/o gato en nuestro hogar.</p><br><br>
-            <img src="https://static.abc.es/media/sociedad/2019/10/10/gatosperros1-kyXF--1200x630@abc.jpg" alt=""><br><br>
+
+            <div class="columna2">
+                <a href="gatos.html"><img src="assets/imagenes/Adoptar-gatos.jpg" alt=""></a>
+                <div class="boton"> 
+                    <a href="#">GATOS</a>
+                </div>
+                
+            </div>
         </div>
     </div>
+    <!--Fin seccion adoptar-->
+    <!--NOSOTROS-->
+    <div id="contenedornosotros">
+        <h1 class="centrar">Nosotros</h1>
+    <div class="columnasnoso">
+        <div class="mision">
+            <h2>Misión</h2>
+            <p>Pets, esta principalmente comprometida con promover mediante diferentes actividades la adopción
+                responsable, la conciencia de esterilizar y recuperar animales en condición de maltrato y abandono con
+                el fin de enseñar, contribuir y entregar una calidad de vida a todos los perros y gatos que lo
+                necesiten.</p>
+        </div>
+
+        <div class="vision">
+            <h2>Visión</h2>
+            <p>Queremos ser reconocidos a nivel mundial por el impacto generado no solo a todos aquellos animales que
+                fueron rescatados, sino a toda la sociedad por generar conocimiento y consciencia acerca de la
+                importancia de esterilizar, y de la responsabilidad de tener un perro y/o gato en nuestro hogar.</p>
+        </div>
+    </div>
+    </div>
     
+    <!--FIN NOSOTROS-->
+
+    <!--Pie de pagina-->
     <footer class="pie-pagina" id="Pie-pagina">
         <div class="grupo-1">
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="assets/imagenes/R.png" alt="❤️ Pets">
+                        <img src="assets/imagenes/piepagina.png"
+                            alt="❤️ Pets">
                     </a>
-                    <span class="logo">PETS</span>
                 </figure>
             </div>
             <div class="box">
@@ -92,19 +157,20 @@
                 <div class="red-social">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa-solid fa-envelope"></a>
                     <a href="#" class="fa fa-youtube"></a>
                 </div>
             </div>
         </div>
         <div class="grupo-2">
-            <small>&copy; 2023 <b>❤️ PETS</b> - Todos los derechos reservados</small>
+            <small>&copy; 2023 <b>Patitas peludas</b> - Todos los derechos reservados</small>
         </div>
     </footer>
 
+<!--FIN pie de pagina-->
 
-   
 
-    
+
 </body>
+
 </html>
