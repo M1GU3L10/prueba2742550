@@ -6,56 +6,17 @@
     <link rel="icon" href="assets/imagenes/R.png">
     <title> PETS / REGISTRO</title>
 </head>
-<body>
-
-    <form action="" class="formulario">
-
-        <h1>REGISTRO...</h1>
-        <label for="nombre">Nombre: </label>
-        <input type="text"  id="nombre" required>
-
-      
-        <label for="apellido">Apellidos: </label>
-        <input type="text" id="apellido" required>
-
-
-     
-        <label for="tipodoc">Tipo de do
-            cumento:</label>
-        <select id="tipodoc" name="tipodoc" required>
-            <option value="T.I">Tarjeta identidad</option>
-            <option value="C.C">Cedula</option>
-            <option value="C.E">Cedula extrangeria</option>
-            <option value="NIT">NIT</option>
-        </select>
-
-     
-        <label for="doc">Documento: </label>
-        <input type="number" id="doc" required>
-
-
-     
-        <label for="correo">Correo: </label>
-        <input type="email" id="correo" required>
-
-
-     
-        <label for="contra">Contraseña: </label>
-        <input type="password" id="contra" required>
-
-
-
-        <label for="confcontra">Confirmar contraseña: </label>
-        <input type="password" id="confcontra" required>
-
-
-        <button type="submit">Registrar</button>
-
-        <span>¿Deseas volver?</span><a href="index2.html">Volver al inicio</a>
-        <span>¿Ya tiene cuenta?</span><a href="login.html">Iniciar sesion</a>
+<body class="body">
+    <section class="form-login">
+        <h3>LOGIN</h3>
+        <input class="inputs" type="text" name="nombre" id="nombres" placeholder="ingrese su nombre">
+        <input class="inputs" type="text" name="apellido" id="apellidos" placeholder="ingrese su apellido">
+        <input class="inputs" type="email" name="correo" id="correos" placeholder="ingrese su correo">
+        <input class="inputs" type="password" name="clave" id="claves" placeholder="ingrese su contraseña">
+        <input class="inputs" type="password" name="conf-clave" id="conf-clave" placeholder="confirme su contraseña">
+        <p>¿Desea volver? <a href="index2.html">Volver al inicio</a></p>  <p>¿No se ha registrado? <a href="registro.html">Registrarse</a></p>
+        <button class="button_iniciar" type="submit" value="">Iniciar</button>
         
-
-    </form>
-    
+    </section>
 </body>
 </html>
