@@ -185,7 +185,7 @@ main{
 
 .pie-pagina{
     width: 100%;
-    background-color: #BDFBF7;
+    background-color: #BB46FA;
 }
 
 .pie-pagina .grupo-1{
@@ -228,17 +228,17 @@ main{
     line-height: 45px;
     color: black;
     margin-right: 10px;
-    background-color: #9bece7;
+    background-color: #BB46FA;
     text-align: center;
     transition: all 300ms ease;
 }
 
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: #ac01fb;
+    color: white;
 }
 
 .pie-pagina .grupo-2{
-    background-color: #9bece7;
+    background-color: #D691FB;
     padding: 15px 10px;
     text-align: center;
     color: black;
