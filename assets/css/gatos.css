@@ -38,6 +38,11 @@ nav li a{
 nav > li {
     float: left;
 }
+div a:hover{
+    background-color: #bb46fa;
+    color: #d691fb;
+
+}
 
 nav li ul {
     display: none;

@@ -52,8 +52,12 @@ nav li:hover > ul{
 nav ul a:hover{
     background-color: #bb46fa;
     color: #d691fb;
-
 }
+div a:hover{
+    background-color: #bb46fa;
+    color: #d691fb;
+}
+
 #menuh{
     width: 60px;
     height: 60px;
