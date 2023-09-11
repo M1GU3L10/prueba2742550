@@ -524,3 +524,55 @@ nav ul a:hover{
     background-color: #bb46fa;
     color:white;
 }
+
+.gato-adopcion{
+    width: 100%;
+    background-color: #5c227a;
+    margin: 0px;
+    height: 530px;
+}
+
+.perro-gato{
+    align-items: center;
+    margin-left: 400px;
+    padding: 20px;
+}
+
+.gato-adopcion h2{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.perro-gato img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgb(245, 242, 242);
+    transition: all 400ms ease;
+}
+
+.perro-gato img:hover{
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    transform: translateY(-3%);
+}
+.boton a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #bb46fa;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.boton{
+    margin-left: 23%;
+}
+
+.boton a:hover{
+    background-color: #d691fb;
+    color: white;
+}
