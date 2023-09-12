@@ -379,52 +379,6 @@ nav ul a:hover{
     background-color: #bb46fa;
 }
 
-.adoptar{
-    width: 100%;
-    height: 580px;
-}
-.columnas{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 70px;
-}
-
-.adoptar h1{
-    text-align: center;
-    margin-bottom: 20px;
-    padding-top: 40px;
-    color: black;
-}
-
-.adoptar p{
-    margin-left: 60px;
-    margin-right: 60px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: black;
-    font-size: 15px;
-}
-
-.columnas img{
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 30px;
-    overflow: hidden;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    transition: all 400ms ease;
-}
-
-.columna1 img:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%);
-}
-
-.columna2 img:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%);
-}
-
 .boton a{
     text-decoration: none;
     text-align: center;
@@ -438,10 +392,7 @@ nav ul a:hover{
     margin-left: 42%;
 }
 
-.boton a:hover{
-    background-color: #bb46fa;
-    color: white;
-}
+
 
 #contenedornosotros{
     width: 100%;
@@ -532,7 +483,7 @@ nav ul a:hover{
     height: 530px;
 }
 
-.perro-gato{
+.perro-gatoo{
     align-items: center;
     margin-left: 400px;
     padding: 20px;
@@ -545,7 +496,7 @@ nav ul a:hover{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.perro-gato img{
+.perro-gatoo img{
     width: 400px;
     height: 300px;
     border-radius: 10px;
@@ -555,9 +506,8 @@ nav ul a:hover{
     transition: all 400ms ease;
 }
 
-.perro-gato img:hover{
-    box-shadow: 5px 5px 20px rgb(255, 255, 255);
-    transform: translateY(-3%);
+.perro-gatoo img:hover{
+    
 }
 .boton a{
     text-decoration: none;

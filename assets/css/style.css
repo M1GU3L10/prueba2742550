@@ -53,10 +53,6 @@ nav ul a:hover{
     background-color: #bb46fa;
     color: #d691fb;
 }
-div a:hover{
-    background-color: #bb46fa;
-    color: #d691fb;
-}
 
 #menuh{
     width: 60px;
@@ -322,6 +318,11 @@ div a:hover{
     display: block;
 }
 
+.perfil:hover{
+    background-color: #bb46fa;
+    color: #d691fb;
+}
+
 .container{
     width: 100%;
     display: flex;
@@ -377,10 +378,7 @@ div a:hover{
     transition: all 400ms ease;
 }
 
-.card .contenido a:hover{
-    background-color: #ac01fb;
-    color: white;
-}
+
 
 .slide {
     position: relative;
@@ -576,7 +574,7 @@ div a:hover{
 }
 
 .columna1 img:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
     transform: translateY(-3%);
 }
 
