@@ -56,6 +56,10 @@ nav ul a:hover{
     color:#d691fb ;
 
 }
+.forms a:hover{
+    background-color: #bb46fa;
+    color: #d691fb;
+}
 #menuh{
     width: 30px;
     height: 30px;
