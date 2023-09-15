@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/gatos.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300&family=Merienda:wght@800&family=Oswald&family=Quicksand:wght@700&display=swap');
@@ -18,23 +18,23 @@
 <body>
     <nav>
         <div>
-            <img src="assets/imagenes/logomejor.png" alt="Menu" id="menuh">
+            <img src="../assets/imagenes/logomejor.png" alt="Menu" id="menuh">
 
 
 
         </div>
         <span></span>
         <ul>
-            <li><a href="index2.html">Inicio</a></li>
-            <li><a href="#adoptar">Adoptar</a>
-            <li><a href="views/registro.html">Donar</a></li>
+            <li><a href="../index2.html">Inicio</a></li>
+            
+            <li><a href="registro.html">Donar</a></li>
             </li>
             <li><a href="#contenedornosotros">Nosotros</a>
             <li><a href="#Pie-pagina">Contactanos</a></li>
         </ul>
         <div class="forms">
-            <a href="views/login.html" class="perfil">login</a>
-            <a href="views/registro.html" class="perfil">sign up</a>
+            <a href="login.html" class="perfil">login</a>
+            <a href="registro.html" class="perfil">sign up</a>
 
         </div>
 
@@ -47,17 +47,17 @@
             <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
                 checked="checked">
             <div class="slide-item">
-                <img src="assets/imagenes/Diseño sin título.png">
+                <img src="../assets/imagenes/Diseño sin título.png">
                 <p>¡Todos nuestros peludos están a la espera de una familia!</p>
             </div>
             <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
             <div class="slide-item">
-                <img src="assets/imagenes/carrusel2.png">
+                <img src="../assets/imagenes/carrusel2.png">
                 <p class="carrusel22">¡Son entregados en óptimas condiciones de salud y belleza!</p>
             </div>
             <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
             <div class="slide-item">
-                <img src="assets/imagenes/carrusel3.png">
+                <img src="../assets/imagenes/carrusel3.png">
                 <p class="carrusel3">En esta página conocerás nuestro proceso de adopción y requisitos!</p>
                 <a href="#contenedornosotros" class="button">Saber mas</a>
             </div>
@@ -81,65 +81,121 @@
         </div>
     </div>
     <!--FIN CARRUSEL-->
-
     <!--Seccion adoptar-->
-    <div class="adoptar" id="adoptar">
-        <h1>ADOPTAR</h1>
-        <p>Puedes ayudar a muchos peluditos que buscan un hogar</p>
-        <div class="columnas">
-            <div class="columna1">
-                <a href="views/perros.html"><img src="assets/imagenes/Adoptar-perros.jpg" alt=""></a>
-                <div class="boton">
-                    <a href="views/perros.html">PERROS</a>
-                </div>
-                
+    <div class="gato-adopcion">
+        <h2>¿Deseas ver nuestros perros?</h2>
+        <div class="perro-gatoo">
+            <a href="perros.html"><img src="../assets/imagenes/Adoptar-perros.jpg" alt=""></a>
+            <div class="boton">
+                <a href="perros.html">PERROS</a>
             </div>
 
-            <div class="columna2">
-                <a href="views/gatos.html"><img src="assets/imagenes/Adoptar-gatos.jpg" alt=""></a>
-                <div class="boton">
-                    <a href="views/gatos.html">GATOS</a>
-                </div>
-
-            </div>
         </div>
     </div>
+
     <!--Fin seccion adoptar-->
-
-    <!--NOSOTROS-->
-    <div id="contenedornosotros">
-        <h1 class="centrar">Nosotros</h1>
-        <div class="columnasnoso">
-            <div class="mision">
-                <h2>Misión</h2>
-                <p>
-                    Pets, esta principalmente comprometida con promover mediante diferentes actividades la adopción
-                    responsable, la conciencia de esterilizar y recuperar animales en condición de maltrato y abandono con responsable, la conciencia de esterilizar y recuperar animales en condición de maltrato y
-                    abandono con
-                    el fin de enseñar, contribuir y entregar una calidad de vida a todos los perros y gatos que lo
-                    necesiten.
-                </p>
-            </div>
-
-            <div class="vision">
-                <h2>Visión</h2>
-                <p>Queremos ser reconocidos a nivel mundial por el impacto generado no solo a todos aquellos animales
-                    que
-                    fueron rescatados, sino a toda la sociedad por generar conocimiento y consciencia acerca de la
-                    importancia de esterilizar, y de la responsabilidad de tener un perro y/o gato en nuestro hogar.
-                </p>
+    <!--CARDS-->
+    <h1 class="centrar">ADOPCION...</h1>
+    <div class="container">
+        <div class="card">
+            <figure>
+                <img src="../assets/imagenes/gatopersa.jpg" alt="">
+            </figure>
+            <div class="contenido">
+                <h3>TOM</h3>
+                <p>violento e independiente</p>
+                <p><b>Peso: </b>5kg</p>
+                <p><b>Altura: </b>25cm</p>
+                <p><b>Enfermedades: </b>Ningina</p>
+                <p><b>Raza: </b>Persa</p>
+                <a href="registro.html">Adoptar!</a>
             </div>
         </div>
+        <div class="card">
+            <figure>
+                <img src="../assets/imagenes/gatobombay.webp" alt="">
+            </figure>
+            <div class="contenido">
+                <h3>GARRA</h3>
+                <p>pasifico,cariñoso,jugueton</p>
+                <p><b>Peso: </b>4.5kg</p>
+                <p><b>Altura: </b>28cm</p>
+                <p><b>Enfermedades: </b>combulciones constantes(Tratamiento)</p>
+                <p><b>Raza: </b>Bombay</p>
+                <a href="registro.html">Adoptar!</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="../assets/imagenes/gatoesfinge.jpg" alt="">
+            </figure>
+            <div class="contenido">
+                <h3>KITTY</h3>
+                <p>roncon y dormilon</p>
+                <p><b>Peso: </b>7kg</p>
+                <p><b>Altura: </b>25cm</p>
+                <p><b>Enfermedades: </b>Ningina</p>
+                <p><b>Raza: </b>Esfinge</p>
+                <a href="registro.html">Adoptar!</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="card">
+            <figure>
+                <img src="../assets/imagenes/gatosiamés.jpg" alt="">
+            </figure>
+            <div class="contenido">
+                <h3>HIPO</h3>
+                <p>Cariñoso, jugueton y travieso</p>
+                <p><b>Peso: </b>4.5kg</p>
+                <p><b>Altura: </b>30cm</p>
+                <p><b>Enfermedades: </b>Ninguna</p>
+                <p><b>Raza: </b>Siamés</p>
+                <a href="registro.html">Adoptar!</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="../assets/imagenes/gatosomali.jpg" alt="">
+            </figure>
+            <div class="contenido">
+                <h3>Mutiko</h3>
+                <p>ruidoso y destructivo</p>
+                <p><b>Peso: </b>4kg</p>
+                <p><b>Altura: </b>25cm</p>
+                <p><b>Enfermedades: </b>sordo</p>
+                <p><b>Raza: </b>somalí</p>
+                <a href="#">Adoptar!</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="../assets/imagenes/gatocolorpoint.webp" alt="">
+            </figure>
+            <div class="contenido">
+                <h3>Kenji</h3>
+                <p>exotico y perezoso </p>
+                <p><b>Peso: </b>7kg</p>
+                <p><b>Altura: </b>22cm</p>
+                <p><b>Enfermedades: </b>Picadura de abeja</p>
+                <p><b>Raza: </b>Color point</p>
+                <a href="registro.html">Adoptar!</a>
+            </div>
+        </div>
+
     </div>
 
-    <!--FIN NOSOTROS-->
-    <!--PIE DE PAGINA-->
+    <!--END CARDS-->
+
+    <!--Pie de pagina-->
     <footer class="pie-pagina" id="Pie-pagina">
         <div class="grupo-1">
             <div class="box">
                 <figure>
                     <a href="#">
-                        <img src="assets/imagenes/piepagina.png" alt="Patitas peludas">
+                        <img src="../assets/imagenes/piepagina.png" alt="❤️ Pets">
                     </a>
                 </figure>
             </div>
@@ -147,7 +203,7 @@
                 <h2>INFORMACIÓN</h2>
                 <p>Jhojan Sanchez Arango.</p>
                 <p><b>Cell: </b>3002939782</p>
-                <p><b>Correo: </b><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnzMvLFDZJmmrpJGksQfmQRgkWkvXhDVbHNNWKLgNqGlRbzXgsGBwVwWcQkRKfMRCXDPB">sanchezjhojan123@gmail.com</a></p><br>
+                <p><b>Correo: </b><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnzMvLFDZJmmrpJGksQfmQRgkWkvXhDVbHNNWKLgNqGlRbzXgsGBwVwWcQkRKfMRCXDPB">sanchezjhojan123@gmail.com</a></p>
                 <p>Miguel Angel Perez Castrillon.</p>
                 <p><b>Cell: </b>3197437259</p>
                 <p><b>Correo: </b><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvnzMvLFDZJmmrpJGksQfmQRgkWkvXhDVbHNNWKLgNqGlRbzXgsGBwVwWcQkRKfMRCXDPB">123miguelfps@gmail.com</a></p>
@@ -166,8 +222,11 @@
             <small>&copy; 2023 <b>Patitas peludas</b> - Todos los derechos reservados</small>
         </div>
     </footer>
-    <!--END PIE DE PAGINA-->
+
     <!--FIN pie de pagina-->
+
+
+
 </body>
 
 </html>

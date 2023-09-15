@@ -38,11 +38,6 @@ nav li a{
 nav > li {
     float: left;
 }
-div a:hover{
-    background-color: #bb46fa;
-    color: #d691fb;
-
-}
 
 nav li ul {
     display: none;
@@ -57,7 +52,14 @@ nav li:hover > ul{
 nav ul a:hover{
     background-color: #bb46fa;
     color: #d691fb;
-
+}
+.forms a:hover{
+    background-color: #bb46fa;
+    color: #d691fb;
+}
+.box p a{
+    text-decoration: none;
+    color: black;
 }
 #menuh{
     width: 60px;
